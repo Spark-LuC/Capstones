@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "Bash(python -c \"import pandas as pd; df=pd.read_csv\\('data/match_players_enriched.csv'\\); print\\('Shape:', df.shape\\); print\\(df.columns.tolist\\(\\)\\)\")",
+      "Bash(py --version)",
+      "Read(//usr/**)",
+      "Bash(command -v conda)",
+      "Read(//c/Users/luche/AppData/Local/Programs/**)",
+      "Bash(grep -c \"^$\")",
+      "Bash(grep -c \"^0$\")",
+      "Bash(grep -c \"^480$\")",
+      "Bash(python3 -c ':*)",
+      "Bash(python -c \"import pandas as pd; df=pd.read_csv\\('data/match_players_enriched.csv'\\); print\\(df.shape\\); print\\(df[['kills','deaths','score','damage_made','afk_rounds','rounds_in_spawn','score_share','gini_score','is_carrier']].describe\\(\\)\\)\")",
+      "Bash(python -c \"import pandas as pd; df=pd.read_csv\\('data/match_players_enriched.csv'\\); print\\(df.shape\\)\")",
+      "Bash(python.exe --version)",
+      "Bash(/c/Users/luche/AppData/Local/Microsoft/WindowsApps/python --version)",
+      "Bash(cmd /c \"python --version\")",
+      "Bash(cmd /c \"where python\")"
+    ]
+  }
+}
